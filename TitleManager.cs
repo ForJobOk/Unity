@@ -1,4 +1,8 @@
-﻿using System.Collections;
+//学習内容：シーンの切り替え方
+//名前空間にSceneManagementを追加＿＿ SceneManager.LoadScene("移行したいシーン名");
+
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
