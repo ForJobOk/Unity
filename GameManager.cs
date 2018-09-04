@@ -1,4 +1,11 @@
-﻿using System.Collections;
+//学習内容：①public変数＿＿②定数const＿＿③引数__④アクティブ、非アクティブ
+
+//①Unityではpublic修飾子付きでメンバー変数を宣言した場合、Inspectorで設定項目(プロパティ）としてエディタ上で値を設定できる
+//②定数の宣言時には型の前にconstをつける。初期化後に他の値を代入できなくする。区別しやすくするために変数名を大文字にすると分かり易い。
+//③メソッドの定義時にメソッド名(引数の型名 変数名)としておくことで、呼び出し時に値を渡すことができる。
+//④SetActive(bool型)で指定したオブジェクトをアクティブ(true)、非アクティブ（false）に切り替えられる。Inspectorでも変更可能(オブジェクト名左)。
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
